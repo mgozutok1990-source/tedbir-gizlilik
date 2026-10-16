@@ -1,0 +1,85 @@
+<!doctype html>
+<!--
+  Tedbir gizlilik politikası. Google Play "Gizlilik politikası bağlantısı" için herkese açık bir
+  adreste yayınlanır (ör. GitHub Pages, Netlify).
+  Sentry, RevenueCat, AdMob veya affiliate bağlantıları eklendiğinde "Hizmet sağlayıcılar"
+  bölümü ve Google Play veri güvenliği formu güncellenir.
+-->
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tedbir Gizlilik Politikası</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root { --lacivert: #13233F; --zemin: #F3F5F7; --kart: #FFFFFF; --cizgi: #DDE2E8; --ikincil: #5A6475; --kehribar: #F2B544; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--zemin); color: var(--lacivert); font: 400 16px/1.6 "Plus Jakarta Sans", system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; font-weight: 800; margin: 0 0 4px; }
+  h2 { font-size: 19px; font-weight: 800; margin: 32px 0 8px; }
+  .tarih { color: var(--ikincil); margin: 0 0 24px; }
+  .kart { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 16px; padding: 16px 20px; }
+  .vurgu { border-left: 4px solid var(--kehribar); }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--cizgi); }
+  th { font-weight: 600; color: var(--ikincil); }
+  .tablo { overflow-x: auto; }
+  a { color: #2D5BD7; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tedbir Gizlilik Politikası</h1>
+  <p class="tarih">Son güncelleme: 16 Ekim 2026</p>
+
+  <p>Tedbir, adreslerine göre her sabah hava, uyarı ve kesinti bilgisini tek bildirimde veren bir mobil uygulamadır. Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında hangi verileri neden işlediğimizi ve bu verileri nasıl silebileceğini anlatır.</p>
+
+  <h2>Veri sorumlusu</h2>
+  <p>Mustafa Gözütok (Tedbir uygulamasının geliştiricisi)<br>E-posta: <a href="mailto:m.gozutok.1990@gmail.com">m.gozutok.1990@gmail.com</a></p>
+
+  <h2>Hesap ve kimlik</h2>
+  <p>Tedbir kayıt istemez; ad, e-posta veya telefon numarası sormaz. Uygulama ilk açıldığında, verilerini sana bağlamak için rastgele üretilen anonim bir kullanıcı numarası oluşturulur. Bu numara kim olduğunu göstermez.</p>
+
+  <h2>İşlediğimiz veriler</h2>
+  <div class="kart tablo">
+    <table>
+      <tr><th>Veri</th><th>Neden</th></tr>
+      <tr><td>Eklediğin adresler: adres adı (Ev, İş), il, ilçe, mahalle ve ilçenin yaklaşık konumu (enlem/boylam)</td><td>Hava tahminini ve adresine düşen kesinti ve uyarıları bulmak</td></tr>
+      <tr><td>Sabah özeti saati ve bildirim tercihleri</td><td>Bildirimi istediğin saatte ve istediğin konularda göndermek</td></tr>
+      <tr><td>Telefonun bildirim adresi (push token) ve işletim sistemi (Android/iOS)</td><td>Sabah özetini ve hatırlatmaları telefonuna ulaştırmak</td></tr>
+      <tr><td>Anonim kullanıcı numarası ve hangi gün özet gönderildiği</td><td>Verilerini sana bağlamak, aynı gün iki kez bildirim göndermemek</td></tr>
+    </table>
+  </div>
+  <p>Telefonunun GPS konumunu, rehberini, fotoğraflarını veya başka uygulamalardaki verilerini okumayız. Adresin, listeden seçtiğin il, ilçe ve mahalleden ibarettir; sokak ve kapı numarası istenmez.</p>
+
+  <h2>Verilerin saklandığı yer ve hizmet sağlayıcılar</h2>
+  <p>Verilerin telefonunda ve Avrupa Birliği'ndeki (Frankfurt, Almanya) sunucularda saklanır. Bu nedenle verilerin KVKK'nın 9. maddesi kapsamında yurt dışına aktarılır. Verileri yalnızca uygulamanın çalışması için aşağıdaki hizmet sağlayıcılarla paylaşırız:</p>
+  <ul>
+    <li><strong>Supabase</strong> – veritabanı ve sunucu (Frankfurt, AB).</li>
+    <li><strong>Expo ve Google Firebase Cloud Messaging</strong> – bildirimlerin telefonuna iletilmesi.</li>
+    <li><strong>Open-Meteo</strong> – hava tahmini. Yalnızca ilçenin konumu ve ilçe adı gönderilir; kullanıcı numaran gönderilmez.</li>
+  </ul>
+  <p>Verilerini satmayız, reklam amacıyla kullanmayız ve üçüncü kişilerle başka bir amaçla paylaşmayız. Bildirimlerde reklam yer almaz. Veriler aktarım sırasında şifrelenir (HTTPS).</p>
+
+  <h2>Saklama süresi</h2>
+  <p>Verilerin, sen silene kadar saklanır. Uygulamayı telefondan kaldırmak sunucudaki verileri silmez; silmek için aşağıdaki yollardan birini kullan.</p>
+
+  <h2 id="verilerimi-sil">Verilerini silme</h2>
+  <div class="kart vurgu">
+    <p style="margin-top:0"><strong>Uygulamadan:</strong> Ayarlar → Gizlilik → <strong>Verilerimi sil</strong>. Onayladığında adreslerin, ayarların, bildirim kayıtların ve anonim hesabın sunucudan ve telefonundan hemen ve kalıcı olarak silinir. Bu işlem geri alınamaz.</p>
+    <p style="margin-bottom:0"><strong>E-postayla:</strong> Uygulamayı kaldırdıysan veya uygulamaya ulaşamıyorsan <a href="mailto:m.gozutok.1990@gmail.com?subject=Tedbir%20veri%20silme%20talebi">m.gozutok.1990@gmail.com</a> adresine "Tedbir veri silme talebi" konulu bir e-posta gönder. Kayıt istemediğimiz için seni tanıyabilmemiz adına, mümkünse eklediğin adreslerin il, ilçe ve mahallesini ve uygulamayı kullandığın yaklaşık tarihi yaz. Talebini en geç 30 gün içinde sonuçlandırır ve sana bilgi veririz.</p>
+  </div>
+
+  <h2>KVKK kapsamındaki hakların</h2>
+  <p>KVKK'nın 11. maddesi uyarınca verilerinin işlenip işlenmediğini öğrenme, bilgi isteme, düzeltilmesini veya silinmesini isteme, aktarıldığı kişileri öğrenme ve itiraz etme hakkın vardır. Bu haklar için <a href="mailto:m.gozutok.1990@gmail.com">m.gozutok.1990@gmail.com</a> adresine yazabilirsin.</p>
+
+  <h2>Çocuklar</h2>
+  <p>Tedbir 13 yaşından küçük çocuklara yönelik değildir.</p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politika değişirse güncel hâli bu sayfada yayınlanır ve üstteki tarih güncellenir.</p>
+</main>
+</body>
+</html>
